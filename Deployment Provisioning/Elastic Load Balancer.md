@@ -13,3 +13,8 @@
 * Expensive
 * Where latency is important
 
+### Classic Load Balancer
+
+* Old/Not recommended
+* Work on both layers 4 and 7 but with limited layer 7 functions
+
