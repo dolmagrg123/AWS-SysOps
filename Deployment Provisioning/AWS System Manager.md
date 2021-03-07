@@ -6,7 +6,7 @@
 
 * Includes Run Command which automates operational tasks across resources- eg. security patching, package installs
 
-* Organize your inventory, grouping rsources together by application or environment- including in-premises systems
+* Organize your inventory, grouping resources together by application or environment- including in-premises systems
 
 ## Run Command
 
@@ -17,6 +17,7 @@
 * Aplly patches and updates
 * Run an Ansible playbook
 * Run a shell script
+
 
 
 
