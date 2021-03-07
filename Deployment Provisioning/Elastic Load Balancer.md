@@ -4,6 +4,10 @@
 * Application Layer
 * Inspect Packets
 * Make routing decisions
+* Load Balancing of HTTP and HTTPs
+* You can create advance requests routing, sending specified requests to specific web servers
+
+
 
 ### Network Load Balancer
 
