@@ -16,6 +16,7 @@
 * Super-Fast performance and speed
 * Expensive
 * Where latency is important
+* Load Balancing of TCP traffic where extreme performance is required
 
 ### Classic Load Balancer
 
