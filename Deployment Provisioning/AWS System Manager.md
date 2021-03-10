@@ -18,6 +18,23 @@
 * Run an Ansible playbook
 * Run a shell script
 
+* First create a IAM role with EC2RoleforSSM policy attached
+* Launch EC2 instance, and attach IAM role just created
+* Make note of last 4 letters of instanceID
+
+
+##  Resource Groups
+
+## Built in Insights: 
+
+Config, CloudTrail, Personal Health Dashboard, Trusted Advisor
+
+#### Trusted Advisor:
+
+Cost Optimization, Performance, Security, Fault Tolerance, Service Limits
+
+
+
 
 
 
