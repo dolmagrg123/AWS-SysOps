@@ -8,15 +8,15 @@
 
 * Organize your inventory, grouping resources together by application or environment- including in-premises systems
 
-
+### Using System manager in EC2
 * First create a IAM role with EC2RoleforSSM policy attached
 * Launch EC2 instance, and attach IAM role just created
 * Make note of last 4 letters of instanceID
 
 
 ##  Resource Groups
-Find Resources
-Save Resource Groups
+* Find Resources
+* Save Resource Groups
 
 ## Insights
 1. Built in Insights: 
@@ -35,7 +35,7 @@ Cost Optimization, Performance, Security, Fault Tolerance, Service Limits
 1. Automation
 2. Run Command
 
-## Run Command
+####  Run Command
 
 * Allows you to run pre-defined commands on one or more EC2 instances
 * Stop, restart, terminate, re-size instance
