@@ -8,6 +8,33 @@
 
 * Organize your inventory, grouping resources together by application or environment- including in-premises systems
 
+
+* First create a IAM role with EC2RoleforSSM policy attached
+* Launch EC2 instance, and attach IAM role just created
+* Make note of last 4 letters of instanceID
+
+
+##  Resource Groups
+Find Resources
+Save Resource Groups
+
+## Insights
+1. Built in Insights: 
+
+Config, CloudTrail, Personal Health Dashboard, Trusted Advisor
+
+#### Trusted Advisor:
+
+Cost Optimization, Performance, Security, Fault Tolerance, Service Limits
+
+2. Dashboard by CloudWatch
+3. Inventory
+4. Compliance
+
+## Actions
+1. Automation
+2. Run Command
+
 ## Run Command
 
 * Allows you to run pre-defined commands on one or more EC2 instances
@@ -18,20 +45,8 @@
 * Run an Ansible playbook
 * Run a shell script
 
-* First create a IAM role with EC2RoleforSSM policy attached
-* Launch EC2 instance, and attach IAM role just created
-* Make note of last 4 letters of instanceID
 
 
-##  Resource Groups
-
-## Built in Insights: 
-
-Config, CloudTrail, Personal Health Dashboard, Trusted Advisor
-
-#### Trusted Advisor:
-
-Cost Optimization, Performance, Security, Fault Tolerance, Service Limits
 
 
 
