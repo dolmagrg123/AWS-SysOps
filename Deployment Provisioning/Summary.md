@@ -16,3 +16,16 @@ Two common reasons for an instance failing to launch:
 
 * Increase the volume size -(only works if your GP2 volume is <3333GB.)
 * Change to Provisioned IOPS if your GP2 volume is 3333GB or greater or you need more than 10k IOPS.
+
+## Bastion Hosts(JUMPBOX)
+
+* A Bastion is a host connected to a Public subnet.
+* You can connect to it over the internet.
+* Used to securely connect to instances in a Private subnet.
+* Allows you to safely administer your EC2 instances without exposing them to the internet
+* For incoming SSH/RDP only.
+* Does not enable outgoing requests - e.g. internet access for our instances.
+
+
+
+
