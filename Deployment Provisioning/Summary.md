@@ -50,5 +50,16 @@ Two common reasons for an instance failing to launch:
 - Metrics for general health-eg. HealthyHostCount / UnHealthyHostCount, HTTPCode_Backend_2XX
 - Metrics for performance - e.g. Latency, RequestCount, SurgeQueueLenght, SpilloverCount - High numbers can indicate a performance issue, need to scale infrastructure etc
 
+## Systems Manager
+
+* System Manager is used to give visibility and control over your AWS infrastructure
+* Integrates with other management tools:
+  * CloudWatch for monitoring and metrics
+  * Trusted Advisor for reporting and making recommendation on security and cost optimization
+  * Config for keeping configuration of your state consistent
+  * CloudTrail for audit trail of actions happening in your AWS
+
+* Allows you to organize your inventory and logically group resources together.
+* Run Command enables you to perform common operational tasks on groups of instances simultaneously without needing to log in to each one.(Automate certain tasks.)
 
 
