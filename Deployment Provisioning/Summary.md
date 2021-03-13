@@ -42,5 +42,13 @@ Two common reasons for an instance failing to launch:
 * 4XX - Client side errors -- Problem with the client request, identify the problem, fix the request and retry
 * 5XX - Server side errors -- Identify and fix the problem with you webserver / application/ database / load balancer
 
+## ELB CloudWatch Metrics
+
+* Load Balancer Metrics are publishes to CLousWatch 
+* You can create and alarm to send you a notification if a certain metric reaches a user-defines limit.
+* Remember the different types of metric that CLoudWatch can monitor for:
+- Metrics for general health-eg. HealthyHostCount / UnHealthyHostCount, HTTPCode_Backend_2XX
+- Metrics for performance - e.g. Latency, RequestCount, SurgeQueueLenght, SpilloverCount - High numbers can indicate a performance issue, need to scale infrastructure etc
+
 
 
